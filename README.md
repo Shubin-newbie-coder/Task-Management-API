@@ -32,19 +32,19 @@ app/
 
 ## Install and run
 ### 1 Clone Repository
-git clone https://github.com/Shubin-newbie-coder/Task-Management-API.git
+- git clone https://github.com/Shubin-newbie-coder/Task-Management-API.git
 ### 2 Create Virtual Environment
-python -m venv venv
-venv\Scripts\activate 
+- python -m venv venv
+- venv\Scripts\activate 
 ### 3 Install Dependencies
-pip install -r requirements.txt
+- pip install -r requirements.txt
 ### 4 Setup Environment Variables
-DATABASE_URL=postgresql://username:password@localhost:5432/task_db
+- DATABASE_URL=postgresql://username:password@localhost:5432/task_db
 ### 5 Run Server
-uvicorn app.main:app --reload
+- uvicorn app.main:app --reload
 
+## ຈຸດປະສົງ
+ຝຶກອອກແບບແລະການນຳໃຊ້ REST API
 
-
-
-
+## ຮູບພາບຕົວຢ່າງ
 <img width="1899" height="1029" alt="image" src="https://github.com/user-attachments/assets/e7502ef2-ebb5-4de8-a92a-c27614b3c367" />
