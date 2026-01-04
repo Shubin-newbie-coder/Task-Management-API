@@ -19,18 +19,18 @@
 
 ## 📁 Project Structure
 Task-Management-API/
+
+app/
+│main.py
+│database.py
+│models.py
+│schemas.py
+│crud.py
+│routers/
+│task.py
 │
-├── app/
-│ ├── main.py
-│ ├── database.py
-│ ├── models.py
-│ ├── schemas.py
-│ ├── crud.py
-│ └── routers/
-│ └── task.py
-│
-├── requirements.txt
-└── README.md
+requirements.txt
+README.md
 
 
 
