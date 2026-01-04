@@ -19,7 +19,6 @@
 
 ## 📁 Project Structure
 Task-Management-API/
-
 app/
 - main.py
 - database.py
@@ -28,9 +27,23 @@ app/
 - crud.py
 - routers/
 - task.py
-
 - requirements.txt
 - README.md
+
+## Install and run
+### 1 Clone Repository
+-git clone https://github.com/Shubin-newbie-coder/Task-Management-API.git
+### 2 Create Virtual Environment
+-python -m venv venv
+-venv\Scripts\activate 
+### 3 Install Dependencies
+-pip install -r requirements.txt
+### 4 Setup Environment Variables
+-DATABASE_URL=postgresql://username:password@localhost:5432/task_db
+### 5 Run Server
+-uvicorn app.main:app --reload
+
+
 
 
 
